@@ -1,0 +1,27 @@
+body {
+    background: #777;
+}
+
+.transparent-btn {
+    border-radius: 0.5em;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.transparent-btn:hover {
+    background: #888;
+}
+
+.transparent-btn:active {
+    background: #a88;
+}
+
+#video {
+    margin-top: 1em;
+    background: #000;
+    border-radius: 3em;
+    padding: 3em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 40em;
+}

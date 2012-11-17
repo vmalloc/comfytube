@@ -1,0 +1,27 @@
+#youtube-search-results, #included-videos {
+    padding: 0 1em 0 1em;
+}
+
+#choose-videos-dialog .modal-body {
+    height: 500px;
+}
+
+.video-item {
+    padding: 0.5em;
+    margin: 5px 0 5px 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+
+#youtube-search-results .video-item {
+    background: #ccf;
+    box-shadow: inset 0px 0px 20px #aaf,
+                0px 0px 5px #004;
+}
+
+#included-videos .video-item {
+    background: #9f9;
+    box-shadow: inset 0px 0px 20px #0c0,
+                0px 0px 5px #004;
+}

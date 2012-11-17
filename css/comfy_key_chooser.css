@@ -1,0 +1,128 @@
+#choose-key-dialog .modal-body, .key-container {
+    overflow: hidden;
+}
+
+.key-container {
+    background-image: url(../img/keyboard.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 550px;
+}
+
+.keyboard-image {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+.comfykey {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1.25em;
+    background: rgba(110, 155, 255, 0.9);
+    position: absolute;
+    box-shadow: inset 0px 0px 5px 2px  white;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.comfykey.assigned {
+    background: rgba(20, 195, 20, 0.7)
+}
+
+.comfykey:hover {
+    box-shadow: 0 0 10px 5px  yellow;
+}
+
+.comfykey[data-id="scroller"] {
+    top: 120px;
+    left: 279px;
+}
+.comfykey[data-id="stop"] {
+    top: 116px;
+    left: 377px;
+}
+.comfykey[data-id="handset_up"] {
+    top: 170px;
+    left: 92px;
+}
+.comfykey[data-id="call_snail"] {
+    top: 183px;
+    left: 173px;
+}
+.comfykey[data-id="call_bear"] {
+    top: 216px;
+    left: 159px;
+}
+.comfykey[data-id="call_dog"] {
+    top: 250px;
+    left: 153px;
+}
+.comfykey[data-id="call_elephant"] {
+    top: 285px;
+    left: 160px;
+}
+.comfykey[data-id="call_comfy"] {
+    top: 316px;
+    left: 174px;
+}
+.comfykey[data-id="sun"] {
+    top: 210px;
+    left: 410px;
+}
+.comfykey[data-id="moon"] {
+    top: 270px;
+    left: 448px;
+}
+.comfykey[data-id="cloud"] {
+    top: 330px;
+    left: 410px;
+}
+.comfykey[data-id="red"] {
+    top: 390px;
+    left: 394px;
+}
+.comfykey[data-id="yellow"] {
+    top: 390px;
+    left: 352px;
+}
+.comfykey[data-id="blue"] {
+    top: 380px;
+    left: 310px;
+}
+.comfykey[data-id="green"] {
+    top: 370px;
+    left: 268px;
+}
+.comfykey[data-id="orange"] {
+    top: 370px;
+    left: 226px;
+}
+.comfykey[data-id="purple"] {
+    top: 380px;
+    left: 184px;
+}
+.comfykey[data-id="piano"] {
+    top: 210px;
+    left: 279px;
+}
+.comfykey[data-id="flute"] {
+    top: 270px;
+    left: 344px;
+}
+.comfykey[data-id="trumpet"] {
+    top: 270px;
+    left: 216px;
+}
+.comfykey[data-id="drum"] {
+    top: 270px; 
+    left: 279px; 
+}
+.comfykey[data-id="music"] {
+    top: 325px;
+    left: 279px;
+}
+
+
+

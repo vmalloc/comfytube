@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/video_chooser.css">
+<link rel="stylesheet" href="css/comfy_key_chooser.css">
+</head>
+<body>
+
+<div class="transparent-btn" style="position: absolute; right: 0" onclick="return APP.configure()" title="Edit (e)">
+  <i class="icon-wrench icon-white"></i>
+</div>
+
+<div class="transparent-btn" style="position: absolute; left: 0; color: white" onclick="return APP.show_source()" title="Get/set JSON (j)">
+  <i class="icon-th icon-white"></i>
+</div>
+
+
+<div id="video" class="container"></div>
+
+<div id="edit-conf-dialog" class="modal hide">
+  <div class="modal-header">
+    <h3>Edit Configuration JSON</h3>
+  </div>
+  <div class="modal-body">
+    <textarea cols="600" rows="15" style="width: 80%"></textarea>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary pull-right" data-dismiss="modal">OK</button>
+    <button class="btn" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+
+<div id="choose-videos-dialog" class="modal hide">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+    <h3>Choose Videos</h3>
+  </div>
+  <div class="modal-body">
+    <div class="row-fluid">
+      <div class="span6 video-search">
+        <h4>Videos</h4>
+        <div id="included-videos">
+        </div>
+      </div>
+      <div class="span6" style="border-left: 1px silver solid;  padding-left: 1em">
+        <div class="row-fluid">
+          <input type="text" placeholder="Search Youtube..." id="youtube-search-box">
+        </div>
+        <div id="youtube-search-results">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+  </div>
+</div>
+
+<div id="choose-key-dialog" class="modal hide">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+    <h3>Choose Key</h3>
+  </div>
+  <div class="modal-body">
+    <div class="key-container">
+      <div class="comfykey" data-id="scroller"></div>
+      <div class="comfykey" data-id="stop"></div>
+      <div class="comfykey" data-id="handset_up"></div>
+      <div class="comfykey" data-id="call_snail"></div>
+      <div class="comfykey" data-id="call_bear"></div>
+      <div class="comfykey" data-id="call_dog"></div>
+      <div class="comfykey" data-id="call_elephant"></div>
+      <div class="comfykey" data-id="call_comfy"></div>
+      <div class="comfykey" data-id="sun"></div>
+      <div class="comfykey" data-id="moon"></div>
+      <div class="comfykey" data-id="cloud"></div>
+      <div class="comfykey" data-id="red"></div>
+      <div class="comfykey" data-id="yellow"></div>
+      <div class="comfykey" data-id="blue"></div>
+      <div class="comfykey" data-id="green"></div>
+      <div class="comfykey" data-id="orange"></div>
+      <div class="comfykey" data-id="purple"></div>
+      <div class="comfykey" data-id="piano"></div>
+      <div class="comfykey" data-id="flute"></div>
+      <div class="comfykey" data-id="trumpet"></div>
+      <div class="comfykey" data-id="music"></div>
+      <div class="comfykey" data-id="drum"></div>
+    </div>
+  </div>
+  <div class="modal-footer">
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/popcorn.min.js"></script>
+<script src="js/configuration.js"></script>
+<script src="js/video.js"></script>
+<script src="js/jcomfy.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
