@@ -55,16 +55,14 @@ APP.configure_key = function (key) {
 $(function() {
     $("body").keyup(function(e) {
 	switch (e.which) {
-	case 74: // 'j'/'J'
-	case 106:
+	case 77: //'m'
 	    APP.show_source();
 	    break;
-	case 101: // 'e'/'E'
-	case 69:
+	case 87: //'w'
 	    APP.configure();
 	    break;
 	case 27:
-	    $(".modal .close").click();
+	    $(".modal").modal("hide");
 	    break;
 	}
     });
