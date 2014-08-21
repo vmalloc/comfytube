@@ -1,3 +1,3 @@
 # Comfytube
 
-See http://rotemy.com/blog/blog/2012/11/17/comfytube/ for details.
+See http://rotemy.com/blog/posts/2012/comfytube/ for details.
